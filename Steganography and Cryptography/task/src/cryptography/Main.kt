@@ -49,10 +49,10 @@ fun show() {
             val bit = c.blue % 2
             t = (t shl 1) + bit
             if (x == 7) {
-                array.add(t.toByte());
+                array.add(t.toByte())
                 //println(" $bit")
                 //println(t.toByte())
-                t = 0;
+                t = 0
             } //else print(" $bit")
             k++
             if (array.joinToString("").contains("003")) break@loop
